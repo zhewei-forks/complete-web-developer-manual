@@ -1,6 +1,5 @@
 # Complete-Web-Developer-Manual
 
-
 All resources and notes from the Complete Web Developer in 2020: Zero to Mastery course
 
 ******************************************************************************************
@@ -47,32 +46,22 @@ Tags:
 ```
 <!DOCTYPE>
 <html>
+    <head> 
+       <title> Title <\title>
+    <\head>
+    <body>
+        Main contents
+    <\body>
 <\html>
 ```
-*	`<html>`
-*	`<head>`
-*	`<title>`
-*	`<body>`
+
 *	headings (`h1`, `h2`, `h3`, `h4`, `h5`, `h6`)
 *	paragraph `<p>`
 *	bold `<strong>`, italic `<em>`
 *	ordered list `<ol>`, unordered list `<ul>`, list item`<li>`
-*	break `<br>`, horizontal rule `<hr>`
-*	image `<img>` and attributes: `src`, `width`, `height`
-*	anchor `<a href="">`
-
-Topics:
-*	Relative vs Absolute Path
-
-Zero to Mastery resources:
-*	https://github.com/zero-to-mastery/complete-web-developer-manual
-*	https://github.com/zero-to-mastery/zero-to-mastery-captions
-
-Reference websites:
-*	https://www.w3schools.com/
-*	https://developer.mozilla.org/en-US/
-*	https://stackoverflow.com/
-
+*	break `<br>`, horizontal line `<hr>`
+*	image `<img src="~" alt="~" width="42" height="42">` 
+*	anchor `<a href="www.google.com"> Link Name </a>`
 
 ******************************************************************************************
 ## 5.	__Advanced HTML 5__
