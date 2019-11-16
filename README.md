@@ -95,7 +95,8 @@ Tags:
 *	dropdown `<select>`
 	*	option `<option>`
 *	comment `<!-- -->`
-*       `<div>` used for select whole paragraph for CSS , `<span>` used for inline selection for CSS
+*       whole paragraph selection for CSS `<div>`  
+*       inline selection for CSS `<span>` 
 
 Semantic Elements
 *	`<header>`
