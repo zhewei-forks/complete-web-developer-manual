@@ -44,6 +44,11 @@ Install a text editor (Select one):
 *	https://code.visualstudio.com/
 
 Tags:
+```
+<!DOCTYPE>
+<html>
+<\html>
+```
 *	`<html>`
 *	`<head>`
 *	`<title>`
