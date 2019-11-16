@@ -36,15 +36,9 @@ Optional Videos:
 ******************************************************************************************
 ## 4. __HTML 5__
 
-
-Install a text editor (Select one):
-*	https://www.sublimetext.com/
-*	https://atom.io/
-*	https://code.visualstudio.com/
-
 Tags:
 ```
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
     <head> 
        <title> Title <\title>
@@ -65,7 +59,32 @@ Tags:
 
 ******************************************************************************************
 ## 5.	__Advanced HTML 5__
-
+```
+<form method="POST" action="action.php">
+    Name: <input type="text" name="name"><br>
+    Email: <input type="email" name="email" required><br>
+    Password: <input type="password" name="password" minlength="5" required><br>
+    Birthday: <input type="date" name="birthday"><br>
+    
+    Gender:<br>
+    <input type="radio" name="gender" value="Male">Male<br>
+    <input type="radio" name="gender" value="Female">Female<br>
+    <input type="radio" name="gender" value="Others">Others<br>
+    
+    Pets:<br>
+    <input type="checkbox" name="cat">cat<br>
+    <input type="checkbox" name="dog">dog<br>
+    
+    Cars:<br>
+    <select name="cars">
+    	<option value="volvo">Volvo</option>
+	<option value="audi">Audi</option>
+    </select><br>
+    
+    <input type="submit" value="Register">
+    <input type="reset">
+</form>
+```
 
 Tags:
 *	`<form>`
@@ -90,9 +109,6 @@ Topics:
 Resources:
 *	https://learn.freecodecamp.org/responsive-web-design/basic-html-and-html5
 *	https://waitbutwhy.com/
-
-> "__If you take one thing from this, it is this__: Don't worry if you don't feel 100% confident in HTML. Keep going as we will keep building on top of this knowledge."
-
 
 ******************************************************************************************
 ## 6.	__CSS__
