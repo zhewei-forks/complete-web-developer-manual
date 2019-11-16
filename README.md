@@ -41,12 +41,12 @@ Tags:
 <!DOCTYPE html>
 <html>
     <head> 
-       <title> Title <\title>
-    <\head>
+       <title> Title </title>
+    </head>
     <body>
         Main contents
-    <\body>
-<\html>
+    </body>
+</html>
 ```
 
 *	headings (`h1`, `h2`, `h3`, `h4`, `h5`, `h6`)
@@ -95,8 +95,7 @@ Tags:
 *	dropdown `<select>`
 	*	option `<option>`
 *	comment `<!-- -->`
-*       ```<div>``` : used for select whole paragraph for CSS 
-*       ```<span>``` : used for inline selection for CSS
+*       `<div>` used for select whole paragraph for CSS , `<span>` used for inline selection for CSS
 
 Semantic Elements
 *	`<header>`
