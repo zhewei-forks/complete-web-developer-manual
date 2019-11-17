@@ -149,15 +149,25 @@ Properties:
 *	cursor
 *	color: html, hex, rgb or rgba
 
-Selectors:
-*	`.class`
-*	`#id`
+Selectors: Cascading Style Sheets at the most basic level it indicates that the order of CSS rules matter.
+| Selector      | Example       | Examples  |
+| ------------- |:-------------:| ---------:|
+| col 3 is      | right-aligned | $1600     |
+| col 3 is      | right-aligned | $1600     |
+| col 3 is      | right-aligned | $1600     |
+| col 3 is      | right-aligned | $1600     |
+| col 3 is      | right-aligned | $1600     |
+| col 3 is      | right-aligned | $1600     |
+| col 3 is      | right-aligned | $1600     |
+| col 3 is      | right-aligned | $1600     |
+*	`.class` : one tag can have multiple classes
+*	`#id` : one tag can have only one id 
 *	`*` (all elements)
 *	`element`
-*	`element, element`
-*	`element element`
-*	`element > element`
-*	`element + element`
+*	`element1, element2`
+*	`element1 element2` : select all element2 in the closure of/inside element1 
+*	`element1 > element2` : select all element2 that have a (direct) parent of element1
+*	`element1 + element2` : 
 *	`v:hover`
 *	`:last-child`
 *	`:first-child`
