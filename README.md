@@ -95,7 +95,7 @@ Tags:
 *	dropdown `<select>`
 	*	option `<option>`
 *	comment `<!-- -->`
-*	comment `<!-- -->`
+*	paragraph/inline selection `<div>, <span>`
 *       selection `<div>`, `<span>`
 
 Semantic Elements
