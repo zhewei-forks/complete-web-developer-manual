@@ -150,6 +150,7 @@ Properties:
 *	color: html, hex, rgb or rgba
 
 Selectors: Cascading Style Sheets at the most basic level it indicates that the order of CSS rules matter.
+
 | Selector      | Example       | Examples  |
 | ------------- |:-------------:| ---------:|
 | col 3 is      | right-aligned | $1600     |
