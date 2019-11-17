@@ -153,17 +153,13 @@ Selectors: Cascading Style Sheets at the most basic level it indicates that the 
 
 | Selector      | Example       | Examples  |
 | ------------- |:-------------:| ---------:|
-| `.class`      | `.intro`       | Selects all elements with class="intro"   |
-| `.class1.class2 `     | `<div class="name1 name2">...</div>` | Selects all elements with both name1 and name2 set within its class attribute     |
-| `.class1 .class2` | `<div class="name1">
-  <div class="name2">
-    ...
-  </div>
-</div>` | Selects all elements with name2 that is a descendant of an element with name1     |
-| `#id`      | `#firstname` | Selects the element with id="firstname"     |
-| *     | * | Selects all elements     |
-| `element`      | `p` | Selects all <p> elements     |
-| `element,element` | `div, p` | Selects all <div> elements and all <p> elements     |
+| .class      | .intro    | Selects all elements with class="intro"   |
+| .class1.class2      | <div class="name1 name2">...</div> | Selects all elements with both name1 and name2 set within its class attribute     |
+| .class1 .class2 | <div class="name1"> <div class="name2"> ...</div> </div> | Selects all elements with name2 that is a descendant of an element with name1     |
+| #id | #firstname | Selects the element with id="firstname"     |
+| *   | * | Selects all elements     |
+| element      | p | Selects all <p> elements |
+| element,element | div, p | Selects all <div> elements and all <p> elements     |
 | col 3 is      | right-aligned | $1600     |
 *	`.class` : one tag can have multiple classes
 *	`#id` : one tag can have only one id 
