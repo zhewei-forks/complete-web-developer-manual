@@ -167,16 +167,18 @@ Selectors: Cascading Style Sheets at the most basic level it indicates that the 
 
 
 Text Properties
-*	`text-decoration`
-*	`text-transform`
-*	`line-height`
-*	`font-style`
-*	`font-weight`
-*	`font-size`
-*	`font-family`
+*	`text-decoration` : i.e., `line-through`
+*	`text-transform` : i.e., `uppercase`
+*	`line-height` : i.e., `20px`
+*	`font-style` : i.e., `italic`
+*	`font-weight` : i.e., `bold`
+*	`font-size`: i.e, `100%`, `150%`
+*	`font-family` : i.e, `Georgia`, `"Times New Roman"` (can have multiple)
+        Refer to https://fonts.google.com/ and find some good fonts! Insert the link in the headeer
 
 Layout Properties
-*	`float` and `clear`
+*	`float` : i.e., `left` with picture wrapped with texts and align to the left 
+*       `clear` : usually comes with float, i.e., `both`, to clear the float setting
 
 Box Model
 *	`margin`
