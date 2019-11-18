@@ -144,7 +144,6 @@ Tools:
 Properties:
 *	text-align
 *	border
-*       display : `inline-box`
 *	background
 *	list-style
 *	cursor
@@ -182,14 +181,15 @@ Layout Properties
 
 Box Model
 *       content -> padding -> border -> margin
-*	`margin`
+*       `display` : i.e., `inline-block` 
+*	`padding` : i.e., `20px` or `5px 20px 5px 20px` for top, right, bottom and left
+*	`margin` : i.e., `10px 5px` for top/bottom and left/right
+*	`width` and `height`: change for contents
 *	`border`
-*	`padding`
-*	`width` and `height`
 
 Sizes
 *	`px`
-*	`em` and `rem`
+*	`em` and `rem` : compare to the text size, for example: 5em means 5 times the fontsize (relative), rem compares to root element html
 
 Topics:
 *	Cascading: Specificity, Importance `!`, Source Order
