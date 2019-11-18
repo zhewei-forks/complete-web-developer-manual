@@ -173,11 +173,11 @@ Text Properties
 *	`font-style` : i.e., `italic`
 *	`font-weight` : i.e., `bold`
 *	`font-size`: i.e, `100%`, `150%`
-*	`font-family` : i.e, `Georgia`, `"Times New Roman"` (can have multiple)
-Refer to https://fonts.google.com/ and find some good fonts! Insert the link in the headeer
+*	`font-family` : i.e, `Georgia`, `"Times New Roman"` (can have multiple, refer to https://fonts.google.com/ and find some good fonts! Insert the link in the headeer)
 
 Layout Properties
 *	`float` : i.e., `left` with picture wrapped with texts and align to the left 
+*	`clear` : i.e., `both` usually comes with float, , to clear the float setting 
 *       `clear` : i.e., `both`, usually comes with float, , to clear the float setting
 
 Box Model
