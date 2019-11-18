@@ -180,9 +180,8 @@ Layout Properties
 *	`clear` : i.e., `both` usually comes with float, , to clear the float setting 
 
 Box Model
-*       `content -> padding -> border -> margin`
-*       `display` : i.e., `inline-block`
-*       `display` : i.e., `inline-block` 
+*	`content -> padding -> border -> margin`
+*	`display` : i.e., `inline-block`
 *	`padding` : i.e., `20px` or `5px 20px 5px 20px` for top, right, bottom and left
 *	`margin` : i.e., `10px 5px` for top/bottom and left/right
 *	`width` and `height`: change for contents
