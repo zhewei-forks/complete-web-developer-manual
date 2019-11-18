@@ -144,7 +144,7 @@ Tools:
 Properties:
 *	text-align
 *	border
-*       display : `inline-block` display in row
+*       display : `inline-box`
 *	background
 *	list-style
 *	cursor
