@@ -144,6 +144,7 @@ Tools:
 Properties:
 *	text-align
 *	border
+*       display : `inline-block`
 *	background
 *	list-style
 *	cursor
@@ -178,9 +179,9 @@ Text Properties
 Layout Properties
 *	`float` : i.e., `left` with picture wrapped with texts and align to the left 
 *	`clear` : i.e., `both` usually comes with float, , to clear the float setting 
-*       `clear` : i.e., `both`, usually comes with float, , to clear the float setting
 
 Box Model
+*       content -> padding -> border -> margin
 *	`margin`
 *	`border`
 *	`padding`
