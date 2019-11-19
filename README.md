@@ -219,7 +219,7 @@ Website for fonts download:
 Critical Render Path
 *       When rendering a webpage, browser (client) will send requests for HTML, CSS and maybe fonts from other website, making rendering slow. Thus, you can use CSS minifying tool to make your CSS file small. 
 
-Flexbox (Ref: http://flexboxfroggy.com/)
+Flexbox (Make image looks better. Ref: http://flexboxfroggy.com/, cheetsheet: https://darekkay.com/dev/flexbox-cheatsheet.html)
 *	`display: flex`
 *	`flex-direction`
 *	`flex-wrap`
@@ -231,9 +231,21 @@ Flexbox (Ref: http://flexboxfroggy.com/)
 *	`flex`: `flex-grow`, `flex-shrink` and `flex-basis`
 *	`align-self`
 
-Properties
-*	`transition`
-*	`transform`
+Properties (by using transforma and transitions, we can make dynamic interactions)
+```
+	img{
+		width: 450px;
+		height: 300px;
+		margin: 10px;
+		transition: all 1s;
+	}
+	
+	img:hover{
+		transform: scale(1.1);
+	}
+```
+*	`transition` : i.e. `all 1s` 
+*	`transform` : i.e. `scale(1.1)`
 *	`box-shadow`
 
 Tools
