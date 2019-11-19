@@ -216,8 +216,10 @@ Website for fonts download:
 
 ******************************************************************************************
 ## 7.	__Advanced CSS__
+Critical Render Path
+*       When rendering a webpage, browser (client) will send requests for HTML, CSS and maybe fonts from other website, making rendering slow. Thus, you can use CSS minifying tool to make your CSS file small. 
 
-Flexbox
+Flexbox (Ref: http://flexboxfroggy.com/)
 *	`display: flex`
 *	`flex-direction`
 *	`flex-wrap`
@@ -239,7 +241,7 @@ Tools
 *	https://codepen.io/
 
 Exercises:
-*	http://flexboxfroggy.com/
+
 
 Reference websites:
 *	https://caniuse.com/
